@@ -1,7 +1,7 @@
 // Header.jsx
 import React, { useEffect, useMemo, useState } from "react";
 import { Styled } from "./styled";
-import transparentLogo from "/images/transparentLogo.png";
+import logo from "/logo.png";
 import { FiMoon, FiSun } from "react-icons/fi";
 
 const Header = () => {
@@ -48,8 +48,8 @@ const Header = () => {
                         <div className="logoWrapper">
                             {!logoLoaded && <div className="logoSkeleton" />}
                             <img
-                                src={transparentLogo}
-                                alt="javascript-core-notes"
+                                src={logo}
+                                alt="JavaScript Core Notes logo"
                                 onLoad={() => setLogoLoaded(true)}
                                 style={{ opacity: logoLoaded ? 1 : 0 }}
                             />

@@ -3,6 +3,7 @@ import React from "react";
 import { Styled } from "./App.styled";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import ScrollToTop from "./components/scrollToTop";
 import AboutJavascript from "./components/aboutJavascript";
 import JavascriptFundamentals from "./topics/javascriptFundamentals";
 import VariablesAndDataTypes from "./topics/variablesAndDataTypes";
@@ -35,7 +36,7 @@ const App = () => {
             <Styled.Header>
                 <Header />
             </Styled.Header>
-            <Styled.Main>
+            <Styled.Main id="notes-main">
                 <div className="contentWrapper">
                     {/* about css */}
 
@@ -70,6 +71,7 @@ const App = () => {
                 <div className="footerWrapper">
                     <Footer />
                 </div>
+                <ScrollToTop />
             </Styled.Main>
         </Styled.Wrapper>
     );
