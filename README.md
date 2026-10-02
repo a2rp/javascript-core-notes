@@ -1,5 +1,8 @@
 # JavaScript Core Notes
 
+![JavaScript Core Notes screenshot](./screenshot.jpg)
+
+
 JavaScript Core Notes is a focused single-page revision guide for language fundamentals, execution, browser APIs, asynchronous code, modern syntax, and practical interview patterns.
 
 ## Features
